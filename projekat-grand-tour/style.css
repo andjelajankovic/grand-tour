@@ -1,0 +1,152 @@
+:root {
+    --blue: #49bfff;
+    --white: #fff;
+    --gray: #333;
+    --fontSize: 16px;
+    --transition: .3s ease;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: var(--fontSize);
+}
+a:hover{
+    transition: var(--transition);
+}
+.bg-light{
+    background: var(--blue) !important;
+}
+.btn-outline-primary{
+    color: var(--white);
+    border-color: white;
+    border-radius: 0
+}
+.btn-outline-primary:hover {
+    background: var(--white);
+    color: var(--gray);
+    border-color: white;
+    border-radius: 0;
+}
+.navbar{
+    padding: 0 100px;
+}
+.navbar-brand{
+    color: var(--white) !Important;
+    font-size: 2rem;
+}
+.navbar-brand:hover{
+    color: var(--gray) !Important;
+}
+.nav-link {
+    color: var(--white) !Important;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: var(--gray) !Important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--gray) !important;
+}
+/*****
+slider
+******/
+.carousel-caption{
+    bottom: 33%;
+    text-align: left;
+}
+/********
+intro
+*******/
+.intro h2{
+    padding: 20px 0;
+}
+.intro h2 span{
+    background: var(--blue);
+}
+/*********
+counter
+*********/
+.counter i{
+    color: var(--blue);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/*********
+plan
+************/
+.plan.icons{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: var(--white);
+    color: var(--blue);
+    text-align: center;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 2rem;
+}
+.plan h3{
+    margin: 20px 0;
+}
+/**********
+packages
+**********/
+.packages .price{
+    position: relative;
+}
+.packages .price p{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 3px 6px;
+}
+.packages .card-body i{
+    color: var(--blue);
+}
+/**********
+trip
+***********/
+.trip {
+    padding: 100px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(img/slide-palms.jpg);
+    color: var(--white);
+}
+/**************
+destinations
+**************/
+.destinations .col-md-3{
+    position: relative;
+}
+.destinations .stars{
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 3px;
+}
+/*****************
+footer
+*****************/
+footer {
+    color: lightgray;
+}
+footer input {
+    background: black;
+    color: lightgray;
+    padding: 5px;
+}
+footer i {
+    position: relative;
+    left: -30px;
+    color: var(--white);
+}
+.bottomBar {
+    padding: 20px 0 10px 0;
+    background: var(--blue);
+}
